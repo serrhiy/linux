@@ -1,0 +1,17 @@
+1. ```man``` - manual;
+to use regular expression in man press ```/```, type regexp and press ```n```(several times if there are several matches);
+2. ```which``` - returns full path to file;
+3. ```info``` - get information about command;
+4. ```uname``` - get system information;
+5. ```echo $$``` - returns the process indentifier(is different for differnet shels);
+6. ```exec``` - run another command interpreter: ```exec sh```(still has the same process id);
+7. ```history``` - get command history;
+8. ```set +o history``` - turn off history;
+9. ```set +o history``` - turn on history;
+10. ```$HISTSIZE```;
+11. ```$HISTFILE```;
+12. ```$HISTFILESIZE```;
+13. ```!65``` - runs 65th command from history;
+14. ```!!``` - runs last command from history;
+15. ```ctrl + r``` - reverse search;
+16. ```ls !21:1``` - get first arg from 21 command from history and pass it to ls command;
