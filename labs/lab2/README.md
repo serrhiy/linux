@@ -1,4 +1,3 @@
-
 1. Print the files test.txt, city.txt and pass.txt: ```cat test.txt city.txt pass.txt```;
 2. Print the number of words in the files test.txt, city.txt and pass.txt: ```wc -w test.txt city.txt pass.txt```;
 3. Print for each line of the file pass.txt allfileds except 1. The fields in the lines are separated by colon: ```cut -d: -f2- pass.txt```;

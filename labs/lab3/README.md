@@ -1,0 +1,5 @@
+1. create a newfile.txt file, writing to it the number of lines with 6-letter words and no 8-letter words in the city.txt file: ```grep -E '\b\w{6}\b' city.txt | grep -vE '\b\w{8}\b' > newfile.txt```;
+2. add to the end of the newfile.txt file the alphabetically ordered lines starting with 'Be' from the city.txt file: ```grep -E '^Be' city.txt | sort >> newfile.txt```;
+3. display the data from the file newfile.txt: ```cat newfile.txt```;
+4. execute the lsmod command, with the results redirected to the screen and the error message in the result.txt file: ```lsmod 2> result.txt```;
+5. as an ordinary user: select directories from the PATH environment variable (they are separated by colons), and display the names of all files in these directories. Redirect errors to the error.txt file : ```echo $PATH | xargs -d: -t ls 2> error.txt```;
