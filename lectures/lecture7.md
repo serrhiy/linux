@@ -38,6 +38,6 @@ A file descriptor is just an index into the array of open files for the current 
 7. ```cp <exists-file> <new-file>``` - copy file;
 8. ```mv <exists-file> <new-file>``` - move file;
 9. ```rm <file>``` - remove file:
-  ```rm -rf <file>``` - remove directory and its content;
+  a. ```rm -rf <file>``` - remove directory and its content;
 10. ```mkdir``` - make directory;
 11. ```rmdir``` - remove directory;
